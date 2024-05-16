@@ -1,0 +1,176 @@
+body {
+  font-family: Noto Sans;
+}
+.container {
+  width: 1920px;
+  margin: 0 auto;
+  .header {
+    display: flex;
+
+    align-items: center;
+    .logo {
+      margin-left: 312px;
+      width: 90px;
+      height: 40px;
+      margin-top: 28px;
+      margin-bottom: 28px;
+      padding: 7px;
+    }
+    .links {
+      display: flex;
+      width: 480px;
+      height: 32px;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 32px;
+      margin-bottom: 32px;
+      padding-left: 8px;
+      padding-right: 8px;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      margin-left: 318px;
+    }
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    margin-left: 312px;
+    .introduce {
+      width: 430px;
+
+      .hero_word {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+          font-size: 20px;
+          line-height: 30px;
+          color: #5b5b5b;
+          margin-bottom: 8px;
+        }
+      }
+      h1 {
+        color: #3b3b3b;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 24px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        color: #c1c1c1;
+        margin-top: 8px;
+        margin-bottom: 60px;
+      }
+      .community {
+        img {
+          width: 38px;
+          height: 38px;
+          padding: 9px;
+          margin-right: 16px;
+        }
+      }
+    }
+  }
+  .works {
+    .works_title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 80px;
+      margin-top: 120px;
+      .ellipse {
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #c1c1c1;
+      }
+      .line {
+        width: 94px;
+        background-color: #c1c1c1;
+        height: 1px;
+      }
+      p {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+    .Journey {
+      .star_pic {
+        position: absolute;
+        z-index: -1;
+      }
+      .Journey_content {
+        display: flex;
+        align-items: center;
+        .journey_pic {
+          padding-left: 312px;
+          padding-top: 80px;
+          z-index: 100;
+        }
+        .Journey_text {
+          width: 526px;
+          border: 1px solid black;
+          height: 400px;
+          margin-left: 55px;
+          //   background-color: #ffffff;
+          //   opacity: 0.1;
+          border-radius: 40px;
+
+          .Journey_text_content {
+            width: 446px;
+            height: 162px;
+            margin-left: 40px;
+            margin-top: 80px;
+            border-bottom: 1px solid #f1f1f1;
+            h3 {
+              font-size: 28px;
+              line-height: 33.6px;
+              color: #ffffff;
+              margin-bottom: 8px;
+              font-weight: bold;
+            }
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              color: #ffffff;
+              margin-bottom: 24px;
+            }
+            .Journey_tag {
+              display: flex;
+              align-items: center;
+              margin-bottom: 40pxs;
+
+              .Journey_tag_item {
+                width: 88px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 12px;
+                padding-right: 12px;
+                background-color: #ffffff;
+                border-radius: 16px;
+                text-align: center;
+                line-height: 24px;
+                font-size: 16px;
+                margin-right: 16px;
+              }
+            }
+          }
+        }
+        a {
+          display: inline-block;
+          display: flex;
+          width: 176px;
+          height: 62px;
+          background-color: #000000;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          color: #ffffff;
+          text-decoration: none;
+          margin-top: 40px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
