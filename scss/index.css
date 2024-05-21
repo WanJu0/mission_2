@@ -4,7 +4,6 @@ body {
 
 .container {
   width: 1920px;
-  margin: 0 auto;
 }
 .container .header {
   display: flex;
@@ -92,6 +91,8 @@ body {
   margin-right: 16px;
 }
 .container .works .Journey .star_pic {
+  width: 1920px;
+  height: 800px;
   position: absolute;
   z-index: -1;
 }
@@ -106,9 +107,9 @@ body {
 }
 .container .works .Journey .Journey_content .Journey_text {
   width: 526px;
-  border: 1px solid black;
   height: 400px;
   margin-left: 55px;
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 40px;
 }
 .container .works .Journey .Journey_content .Journey_text .Journey_text_content {
@@ -162,4 +163,209 @@ body {
   text-decoration: none;
   margin-top: 40px;
   border-radius: 5px;
+}
+.container .works .app {
+  position: relative;
+  max-width: 1920px;
+  height: 800px;
+}
+.container .works .app .app_pic {
+  max-width: 1920px;
+  position: absolute;
+  z-index: -1;
+}
+.container .works .app .app_content {
+  width: 50%;
+  height: 100%;
+  background-color: rgba(10, 16, 19, 0.5);
+}
+.container .works .app .app_content .app_text {
+  width: 526px;
+  height: 400px;
+  margin-left: 312px;
+  margin-top: 200px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+  position: absolute;
+}
+.container .works .app .app_content .app_text .app_text_content {
+  width: 446px;
+  height: 162px;
+  margin-left: 40px;
+  margin-top: 80px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.container .works .app .app_content .app_text .app_text_content h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.container .works .app .app_content .app_text .app_text_content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.container .works .app .app_content .app_text .app_text_content .app_tag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40pxs;
+}
+.container .works .app .app_content .app_text .app_text_content .app_tag .app_tag_item {
+  width: 88px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  margin-right: 16px;
+}
+.container .works .app .app_content .app_text a {
+  display: inline-block;
+  display: flex;
+  width: 176px;
+  height: 62px;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.container .works .beauty {
+  max-width: 1920px;
+  height: 800px;
+  background-color: rgba(13, 12, 7, 0.5);
+}
+.container .works .beauty .yellow_pic {
+  width: 1920px;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
+}
+.container .works .beauty .beauty_content {
+  display: flex;
+  align-items: center;
+}
+.container .works .beauty .beauty_content .beauty_pic {
+  padding-left: 312px;
+  padding-top: 80px;
+  z-index: 100;
+}
+.container .works .beauty .beauty_content .beauty_text {
+  width: 526px;
+  height: 400px;
+  margin-left: 55px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 40px;
+}
+.container .works .beauty .beauty_content .beauty_text .beauty_text_content {
+  width: 446px;
+  height: 162px;
+  margin-left: 40px;
+  margin-top: 80px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.container .works .beauty .beauty_content .beauty_text .beauty_text_content h3 {
+  font-size: 28px;
+  line-height: 33.6px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.container .works .beauty .beauty_content .beauty_text .beauty_text_content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.container .works .beauty .beauty_content .beauty_text .beauty_text_content .beauty_tag {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40pxs;
+}
+.container .works .beauty .beauty_content .beauty_text .beauty_text_content .beauty_tag .beauty_tag_item {
+  width: 88px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  margin-right: 16px;
+}
+.container .works .beauty .beauty_content a {
+  display: inline-block;
+  display: flex;
+  width: 176px;
+  height: 62px;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.container .servies {
+  position: relative;
+}
+.container .servies .servies_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container .servies .servies_title .ellipse {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #c1c1c1;
+}
+.container .servies .servies_title .line {
+  width: 94px;
+  background-color: #c1c1c1;
+  height: 1px;
+}
+.container .servies .servies_title p {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.container .servies .servies_content {
+  display: flex;
+  position: absolute;
+  top: 239px;
+  justify-content: center;
+}
+.container .servies .servies_content .servies_item {
+  width: 306px;
+  height: 306px;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+.container .servies .servies_content .servies_item .item_content img {
+  margin-bottom: 16px;
+}
+.container .servies .servies_content .servies_item .item_content p {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 42px;
 }/*# sourceMappingURL=index.css.map */

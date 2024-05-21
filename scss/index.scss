@@ -3,7 +3,7 @@ body {
 }
 .container {
   width: 1920px;
-  margin: 0 auto;
+
   .header {
     display: flex;
 
@@ -96,6 +96,8 @@ body {
     }
     .Journey {
       .star_pic {
+        width: 1920px;
+        height: 800px;
         position: absolute;
         z-index: -1;
       }
@@ -109,9 +111,10 @@ body {
         }
         .Journey_text {
           width: 526px;
-          border: 1px solid black;
+
           height: 400px;
           margin-left: 55px;
+          background-color: rgba(#ffffff, 0.1);
           //   background-color: #ffffff;
           //   opacity: 0.1;
           border-radius: 40px;
@@ -169,6 +172,221 @@ body {
           text-decoration: none;
           margin-top: 40px;
           border-radius: 5px;
+        }
+      }
+    }
+    .app {
+      position: relative;
+      max-width: 1920px;
+      height: 800px;
+
+      .app_pic {
+        max-width: 1920px;
+        position: absolute;
+        z-index: -1;
+      }
+      .app_content {
+        width: 50%;
+        height: 100%;
+        background-color: rgba(#0a1013, 50%);
+        .app_text {
+          width: 526px;
+          height: 400px;
+          margin-left: 312px;
+          margin-top: 200px;
+          background-color: rgba(#ffffff, 0.1);
+          border-radius: 40px;
+          position: absolute;
+          .app_text_content {
+            width: 446px;
+            height: 162px;
+            margin-left: 40px;
+            margin-top: 80px;
+            border-bottom: 1px solid #f1f1f1;
+            h3 {
+              font-size: 28px;
+              line-height: 33.6px;
+              color: #ffffff;
+              margin-bottom: 8px;
+              font-weight: bold;
+            }
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              color: #ffffff;
+              margin-bottom: 24px;
+            }
+            .app_tag {
+              display: flex;
+              align-items: center;
+              margin-bottom: 40pxs;
+
+              .app_tag_item {
+                width: 88px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 12px;
+                padding-right: 12px;
+                background-color: #ffffff;
+                border-radius: 16px;
+                text-align: center;
+                line-height: 24px;
+                font-size: 16px;
+                margin-right: 16px;
+              }
+            }
+          }
+          a {
+            display: inline-block;
+            display: flex;
+            width: 176px;
+            height: 62px;
+            background-color: #000000;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            color: #ffffff;
+            text-decoration: none;
+            margin-top: 40px;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+    .beauty {
+      max-width: 1920px;
+      height: 800px;
+      background-color: rgba(#0d0c07, 50%);
+      .yellow_pic {
+        width: 1920px;
+        height: 800px;
+        position: absolute;
+        z-index: -1;
+      }
+      .beauty_content {
+        display: flex;
+        align-items: center;
+        .beauty_pic {
+          padding-left: 312px;
+          padding-top: 80px;
+          z-index: 100;
+        }
+        .beauty_text {
+          width: 526px;
+
+          height: 400px;
+          margin-left: 55px;
+          background-color: rgba(#ffffff, 0.1);
+          //   background-color: #ffffff;
+          //   opacity: 0.1;
+          border-radius: 40px;
+
+          .beauty_text_content {
+            width: 446px;
+            height: 162px;
+            margin-left: 40px;
+            margin-top: 80px;
+            border-bottom: 1px solid #f1f1f1;
+            h3 {
+              font-size: 28px;
+              line-height: 33.6px;
+              color: #ffffff;
+              margin-bottom: 8px;
+              font-weight: bold;
+            }
+            p {
+              font-size: 16px;
+              line-height: 24px;
+              color: #ffffff;
+              margin-bottom: 24px;
+            }
+            .beauty_tag {
+              display: flex;
+              align-items: center;
+              margin-bottom: 40pxs;
+
+              .beauty_tag_item {
+                width: 88px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                padding-left: 12px;
+                padding-right: 12px;
+                background-color: #ffffff;
+                border-radius: 16px;
+                text-align: center;
+                line-height: 24px;
+                font-size: 16px;
+                margin-right: 16px;
+              }
+            }
+          }
+        }
+        a {
+          display: inline-block;
+          display: flex;
+          width: 176px;
+          height: 62px;
+          background-color: #000000;
+          align-items: center;
+          justify-content: center;
+          margin: 0 auto;
+          color: #ffffff;
+          text-decoration: none;
+          margin-top: 40px;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+  .servies {
+    position: relative;
+    .servies_title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 120px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .ellipse {
+        width: 6px;
+        height: 6px;
+        border-radius: 3px;
+        background-color: #c1c1c1;
+      }
+      .line {
+        width: 94px;
+        background-color: #c1c1c1;
+        height: 1px;
+      }
+      p {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+    .servies_content {
+      display: flex;
+      position: absolute;
+      top: 239px;
+      justify-content: center;
+      .servies_item {
+        width: 306px;
+        height: 306px;
+        background-color: #1e1e1e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        .item_content {
+          img {
+            margin-bottom: 16px;
+          }
+          p {
+            color: #ffffff;
+            font-size: 28px;
+            line-height: 42px;
+          }
         }
       }
     }
