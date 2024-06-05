@@ -1,0 +1,126 @@
+.portfolo_title {
+  background: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.portfolo_title .subtitle {
+  max-width: 670px;
+  height: 192px;
+  margin: 0 auto;
+  position: relative;
+}
+.portfolo_title .subtitle .quote-left {
+  position: absolute;
+  top: 0;
+}
+.portfolo_title .subtitle .quote-right {
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+.portfolo_title .subtitle h4 {
+  padding: 59px 71px;
+  color: #1e1e1e;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-align: center;
+}
+.portfolo_title .experience {
+  max-width: 636px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+  gap: 40px;
+}
+.portfolo_title .experience li h4 {
+  color: #5b5b5b;
+  font-size: 16px;
+  line-height: 24px;
+}
+.portfolo_title .experience li p {
+  color: #3b3b3b;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.works {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.works .platform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 120px;
+}
+.works .platform .platform_item img {
+  width: 636px;
+  height: 400px;
+}
+.works .platform .platform_item h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #3b3b3b;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+.works .platform .platform_item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #919191;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.works .platform .platform_item .tags {
+  display: flex;
+}
+.works .platform .platform_item .tags .tag_item {
+  background-color: #f1f1f1;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 16px;
+  color: #3b3b3b;
+  font-weight: 400;
+  border-radius: 16px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1440px) {
+  .works .platform {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .portfolo_title .subtitle {
+    margin-bottom: 40px;
+  }
+  .portfolo_title .experience {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .works .platform .platform_item img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .subtitle .quote-left {
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .subtitle .quote-right {
+    display: none;
+  }
+  .subtitle h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .experience {
+    width: 235px;
+  }
+}/*# sourceMappingURL=portfokio.css.map */
